@@ -25,6 +25,7 @@ public class Register_test extends BaseTest {
   // declarare variabila tip webdriver
     // public WebDriver driver;
     //salut
+    //salut
 
     @Test //specifica faptul ca aceasta metoda e un test;
     public void test(){
