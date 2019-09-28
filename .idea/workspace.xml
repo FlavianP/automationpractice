@@ -45,22 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Register_test.test">
-    <configuration name="Hover_wait_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.Hover_wait_test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RegisterPom_test">
     <configuration name="Hover_wait_test.Hoverwaittest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation_practice" />
       <extension name="coverage">
@@ -93,6 +78,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterPom_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.RegisterPom_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPom_test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="teste" />
+      <option name="MAIN_CLASS_NAME" value="teste.RegisterPom_test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Register_test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation_practice" />
       <extension name="coverage">
@@ -109,27 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="teste in automation_practice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="teste" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegisterPom_test" />
+        <item itemvalue="JUnit.RegisterPom_test.test" />
         <item itemvalue="JUnit.Register_test.test" />
         <item itemvalue="JUnit.Hover_wait_test.Hoverwaittest" />
         <item itemvalue="JUnit.List_webElements_Test.testbutoane" />
-        <item itemvalue="JUnit.teste in automation_practice" />
-        <item itemvalue="JUnit.Hover_wait_test" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +166,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/teste/List_webElements_Test.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
