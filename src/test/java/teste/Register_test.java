@@ -26,6 +26,7 @@ public class Register_test extends BaseTest {
     // public WebDriver driver;
     //salut
     //salut
+    // comentariu2
 
     @Test //specifica faptul ca aceasta metoda e un test;
     public void test(){
