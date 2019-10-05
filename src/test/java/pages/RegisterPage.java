@@ -39,7 +39,6 @@ public class RegisterPage extends BaseTest {
 
     //register process
     public RegisterPage registerValidProcess(List<String> registerValues){
-        String proba="Flavian";
         functions.completareWebelement(FirstNameWeb,registerValues.get(0));
         functions.completareWebelement(lastnameWeb,registerValues.get(1));
         functions.completareWebelement(emailWeb,registerValues.get(2));

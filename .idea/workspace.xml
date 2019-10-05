@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47971cc5-2a50-4127-80a4-c9c14fb845ec" name="Default Changelist" comment="" />
+    <list default="true" id="47971cc5-2a50-4127-80a4-c9c14fb845ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/teste/Login_home_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/HelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/inputdata/Inputdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/inputdata/Inputdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/HelperMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/HelperMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/inputdata/Inputdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/inputdata/Inputdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/teste/RegisterPom_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/teste/RegisterPom_test.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +60,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegisterPom_test">
-    <configuration name="Hover_wait_test.Hoverwaittest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Login_home_test.logintest">
+    <configuration name="Login_home_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation_practice" />
       <extension name="coverage">
         <pattern>
@@ -55,14 +70,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.Hover_wait_test" />
-      <option name="METHOD_NAME" value="Hoverwaittest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="teste.Login_home_test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List_webElements_Test.testbutoane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Login_home_test.logintest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation_practice" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +85,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="teste" />
-      <option name="MAIN_CLASS_NAME" value="teste.List_webElements_Test" />
-      <option name="METHOD_NAME" value="testbutoane" />
+      <option name="MAIN_CLASS_NAME" value="teste.Login_home_test" />
+      <option name="METHOD_NAME" value="logintest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegisterPom_test" />
+        <item itemvalue="JUnit.Login_home_test.logintest" />
+        <item itemvalue="JUnit.Login_home_test" />
         <item itemvalue="JUnit.RegisterPom_test.test" />
+        <item itemvalue="JUnit.RegisterPom_test" />
         <item itemvalue="JUnit.Register_test.test" />
-        <item itemvalue="JUnit.Hover_wait_test.Hoverwaittest" />
-        <item itemvalue="JUnit.List_webElements_Test.testbutoane" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +167,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -166,16 +182,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/teste/List_webElements_Test.java</url>
           <line>23</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/teste/RegisterPom_test.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -27,7 +27,7 @@ public class BaseTest {
 
         //initializarea variabilei driver cu browserul pe care vrem sa il folosim;
         driver=new ChromeDriver();
-        driver.get("http://demo.automationtesting.in/Register.html");
+        driver.get("http://demo.automationtesting.in/Index.html");
 
         //browser mare (full screen)
         driver.manage().window().maximize();

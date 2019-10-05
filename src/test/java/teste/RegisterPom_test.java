@@ -2,6 +2,7 @@ package teste;
 
 import framework.BaseTest;
 import org.junit.Test;
+import pages.HomePage;
 import pages.RegisterPage;
 
 import java.util.ArrayList;
@@ -11,6 +12,9 @@ public class RegisterPom_test extends BaseTest {
 
     @Test
     public void test(){
+
+        HomePage homepage=new HomePage(driver);
+        homepage.clickskipsignin();
 
         RegisterPage registerPage=new RegisterPage(driver);
         List<String> registerValues=new ArrayList<String>();

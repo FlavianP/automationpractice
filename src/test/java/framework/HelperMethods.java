@@ -51,4 +51,23 @@ public class HelperMethods {
        }
        return this;
     }
+
+    //metoda clikc
+    public HelperMethods clickWebelement (WebElement element){
+       element.click();
+       return this;
+   }
+
+   //metoda preluare text
+    public String getWebtext (WebElement element){
+       String text="";
+       text=element.getText();
+       return text;
+    }
+
+    //metoda comparare texte
+    public HelperMethods validateMessage (String expected, String actual){
+       Assert.assertEquals("Valorile nu sunt egale",expected,actual);
+       return this;
+    }
 }
